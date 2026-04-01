@@ -18,7 +18,7 @@ st.set_page_config(
 # -----------------------------
 @st.cache_data
 def load_data():
-    df = pd.read_csv('/Users/ousmanefall/Desktop/Gomycode/python/streamlit/data/cleaned_mercedes_data.csv')
+    df = pd.read_csv('cleaned_mercedes_data.csv')
     return df
 
 df = load_data()
